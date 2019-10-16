@@ -1,7 +1,8 @@
 import requests
 from bs4 import BeautifulSoup as bs
 
-years=['2018','2017','2016']
+years=['2019','2018','2017','2016']
+print("I love FC Bayern Munich")
 orgs=dict()
 for year in years:
     page="https://summerofcode.withgoogle.com/archive/%s/organizations/"%(year)
